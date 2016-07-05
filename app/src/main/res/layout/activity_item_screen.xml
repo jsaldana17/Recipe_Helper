@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jesus.myapp.item_screen">
+
+
+    <TextView android:id="@+id/titleTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ItemScreen_title"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/ItemScreen_defaultPadding"
+        android:paddingBottom="@dimen/ItemScreen_defaultPadding"/>
+
+    <TextView android:id="@+id/ingredientsTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ItemScreen_ingredients"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/ItemScreen_defaultPadding"
+        android:paddingBottom="@dimen/ItemScreen_defaultPadding"/>
+
+    <TextView android:id="@+id/urlTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ItemScreen_url"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/ItemScreen_defaultPadding"
+        android:paddingBottom="@dimen/ItemScreen_defaultPadding"/>
+
+
+
+</LinearLayout>

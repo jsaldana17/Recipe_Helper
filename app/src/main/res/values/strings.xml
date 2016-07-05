@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListViewExample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">Add Item</string>
+    <string name="rowTxt">Row Number</string>
+    <string name="hint_text">Name</string>
+    <string name="ItemScreen_title">Title Here</string>
+    <string name="ItemScreen_ingredients">Ingredients Here</string>
+    <string name="ItemScreen_url">URL Here</string>
+</resources>
